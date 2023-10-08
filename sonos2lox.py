@@ -46,7 +46,7 @@ alarms = soco.alarms.get_alarms()
 
 filtered_alarms = set()
 for alarm in alarms:
-    if alarm.zone.player_name == "Desk Marcel":
+    if alarm.zone.player_name == "<NAME_OF_YOUR_SONOS_SPEAKER>":
         filtered_alarms.add(alarm)
 
 
